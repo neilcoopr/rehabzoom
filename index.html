@@ -80,9 +80,9 @@
 				for ( i = 0; i < 10000; i ++ ) {
 
 					var vertex = new THREE.Vector3();
-					vertex.x = Math.random() * 2000 - 1000;
-					vertex.y = Math.random() * 2000 - 1000;
-					vertex.z = Math.random() * 2000 - 1000;
+					vertex.x = Math.random() * 1000 - 1000;
+					vertex.y = Math.random() * 1000 - 1000;
+					vertex.z = Math.random() * 1000 - 1000;
 
 					geometry.vertices.push( vertex );
 
@@ -112,9 +112,9 @@
 
 					particles = new THREE.ParticleSystem( geometry, materials[i] );
 
-					particles.rotation.x = Math.random() * 6;
-					particles.rotation.y = Math.random() * 6;
-					particles.rotation.z = Math.random() * 6;
+					particles.rotation.x = Math.random() * 4;
+					particles.rotation.y = Math.random() * 4;
+					particles.rotation.z = Math.random() * 4;
 
 					scene.add( particles );
 
